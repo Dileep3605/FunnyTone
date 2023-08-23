@@ -23,7 +23,7 @@ export class DialerComponent implements OnInit {
       displayValue: 1,
     },
     {
-      sound: 'assets/audio/akshay.mpeg',
+      sound: 'assets/audio/akshay.mp3',
       displayValue: 2,
     },
     {
@@ -35,11 +35,11 @@ export class DialerComponent implements OnInit {
       displayValue: 4,
     },
     {
-      sound: 'assets/audio/shetty-song.mpeg',
+      sound: 'assets/audio/shetty-song.mp3',
       displayValue: 5,
     },
     {
-      sound: 'assets/audio/johny-lever.mpeg',
+      sound: 'assets/audio/johny-lever.mp3',
       displayValue: 6,
     },
     {
@@ -56,11 +56,11 @@ export class DialerComponent implements OnInit {
     },
 
     {
-      sound: 'assets/audio/bavashir.mpeg',
+      sound: 'assets/audio/bavashir.mp3',
       displayValue: '*',
     },
     {
-      sound: 'assets/audio/abhi-tik-karke-deta-hu.mpeg',
+      sound: 'assets/audio/abhi-tik-karke-deta-hu.mp3',
       displayValue: 0,
     },
     {

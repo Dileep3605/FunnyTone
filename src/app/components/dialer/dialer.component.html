@@ -1,17 +1,23 @@
 <div class="dialer-component">
   <h1 class="heading">Funny Dialer</h1>
   <div class="dialer">
-    <button
-      type="button"
-      mat-icon-button
-      (click)="playSound(aud)"
-      *ngFor="let aud of audios"
-      class="dialer-button"
-    >
-      {{ aud.displayValue }}
-    </button>
+    <div class="dialer-col" *ngFor="let aud of audios">
+      <button
+        type="button"
+        mat-icon-button
+        (click)="playSound(aud)"
+        class="dialer-button"
+      >
+        {{ aud.displayValue }}
+      </button>
+    </div>
   </div>
-  <button mat-flat-button type="button" (click)="stopAudio()" style="margin-top: 4rem">
+  <button
+    mat-flat-button
+    type="button"
+    (click)="stopAudio()"
+    style="margin-top: 4rem"
+  >
     Stop
   </button>
 </div>

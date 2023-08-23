@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1692819931020,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/100.66ac5e2b1a4eddb8.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.9d92ee9f15a54d35.js",
+        "/manifest.webmanifest",
+        "/polyfills.dcfb10675c1ae1a0.js",
+        "/runtime.d5bc6093b3cac73d.js",
+        "/styles.6507e0fc35322572.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/audio/Ab bol na Madrchodh.mp3",
+        "/assets/audio/Jaldi-Waha-Se-Hato-Funny.mp3",
+        "/assets/audio/Lappu Sa Sachin Hai - Notification.mp3",
+        "/assets/audio/Maa Chudi Padi Hai Sound Effect.mp3",
+        "/assets/audio/Roadies Gaali - Funny.mp3",
+        "/assets/audio/abhi-tik-karke-deta-hu.mpeg",
+        "/assets/audio/akshay.mpeg",
+        "/assets/audio/bavashir.mpeg",
+        "/assets/audio/go-goa-gone.mpeg",
+        "/assets/audio/gormint-part-2.mp3",
+        "/assets/audio/hindi kajal in hathon.mp3",
+        "/assets/audio/johny-lever.mpeg",
+        "/assets/audio/maaro-mujhe-maaro.mp3",
+        "/assets/audio/shetty-song.mpeg",
+        "/assets/audio/true-love.mpeg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/100.66ac5e2b1a4eddb8.js": "b4cc6b48f9b829c38790cf4f65e5dbea9806b016",
+    "/assets/audio/Ab bol na Madrchodh.mp3": "154f5436ed31b878d9a35020d4cfaf31980920b4",
+    "/assets/audio/Jaldi-Waha-Se-Hato-Funny.mp3": "f165cd38c0e93116311a73b052565b9b125e3478",
+    "/assets/audio/Lappu Sa Sachin Hai - Notification.mp3": "f0bb05459af2991647186acf14f3d203893954c1",
+    "/assets/audio/Maa Chudi Padi Hai Sound Effect.mp3": "81bbab8d041f4f7887e7ada6701620605ebcd759",
+    "/assets/audio/Roadies Gaali - Funny.mp3": "44dc161147e2df4838fe16425b351f8598655403",
+    "/assets/audio/abhi-tik-karke-deta-hu.mpeg": "b82d25403d17e9447c9ef10ffdb1e1873cead1f8",
+    "/assets/audio/akshay.mpeg": "363fc06bedc855ff6baf2f2806b4f8e0740457e4",
+    "/assets/audio/bavashir.mpeg": "792b88a5774fa531d3cb9125b67610b117542d44",
+    "/assets/audio/go-goa-gone.mpeg": "ffa1748a400bcc11f4c4c94829faef20f8620ae0",
+    "/assets/audio/gormint-part-2.mp3": "4d9e2706267b6f798ceabe657d6f64119c945d74",
+    "/assets/audio/hindi kajal in hathon.mp3": "6d43cb61eb92ac37f531675fba8d7e9495d35016",
+    "/assets/audio/johny-lever.mpeg": "b67254a3e1172f509f71e0e07de84ed1e4a3a723",
+    "/assets/audio/maaro-mujhe-maaro.mp3": "47596d0db221c7778ea6c04cf8c406a30c6475a7",
+    "/assets/audio/shetty-song.mpeg": "a8af6230eca6966ee2dd603baeed6607b3128071",
+    "/assets/audio/true-love.mpeg": "343981482e5ee56fe0bc1eb36406aa11b4aa7c52",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "5555de9d630514559378f419056f1b8317393592",
+    "/main.9d92ee9f15a54d35.js": "d224aaaaef8068f2a3ae6ffefd04aa43965acf4b",
+    "/manifest.webmanifest": "69c6e00789c5e1b1cad659ee577e7e7389e99053",
+    "/polyfills.dcfb10675c1ae1a0.js": "3f24b81fc516249491440b4c1615f6f76b7d28a1",
+    "/runtime.d5bc6093b3cac73d.js": "1546b3537741210d8b346ddead239acfa849e8e1",
+    "/styles.6507e0fc35322572.css": "1c428c356d3ad7dd744d877cb29ee6f7ce441188"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

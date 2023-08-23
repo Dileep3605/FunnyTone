@@ -1,0 +1,23 @@
+.dialer-component {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: #fff;
+  .heading {
+    margin-bottom: 4rem;
+  }
+  .dialer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-flow: wrap;
+
+    .dialer-button {
+      flex: 0 0 26%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div class="dialer-component">
+  <h1 class="heading">Funny Dialer</h1>
+  <div class="dialer">
+    <button
+      type="button"
+      mat-icon-button
+      (click)="playSound(aud)"
+      *ngFor="let aud of audios"
+      class="dialer-button"
+    >
+      {{ aud.displayValue }}
+    </button>
+  </div>
+  <button mat-flat-button type="button" (click)="stopAudio()" style="margin-top: 4rem">
+    Stop
+  </button>
+</div>
+
+<ng-container *ngIf="selectedValue">
+  <audio controls #audioPlayer style="display: none">
+    <source [src]="selectedValue.sound" type="audio/ogg" />
+    <source [src]="selectedValue.sound" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</ng-container>

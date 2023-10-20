@@ -43,6 +43,7 @@ export class StorySliderComponent implements OnInit, AfterViewInit {
 
   activeSlide(index: number) {
     this.active = index;
+    this.playSound(this.audios[this.active]);
     this.items.forEach((item) => {
       item.classList.remove('active');
     });

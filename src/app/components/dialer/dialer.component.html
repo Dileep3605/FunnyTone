@@ -12,14 +12,10 @@
       </button>
     </div>
   </div>
-  <button
-    mat-flat-button
-    type="button"
-    (click)="stopAudio()"
-    style="margin-top: 4rem"
-  >
-    Stop
-  </button>
+  <div class="dialer-action">
+    <button mat-flat-button type="button" (click)="stopAudio()">Stop</button>
+    <button mat-flat-button type="button" color="warn" [routerLink]="'/story'">Danger</button>
+  </div>
 </div>
 
 <ng-container *ngIf="selectedValue">

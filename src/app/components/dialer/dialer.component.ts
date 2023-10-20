@@ -1,16 +1,13 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
-
-export interface Audio {
-  sound: string;
-  displayValue: number | string;
-}
+import { Audio } from '../../interfaces/audio.interface';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-dialer',
   standalone: true,
-  imports: [CommonModule, MatButtonModule],
+  imports: [CommonModule, MatButtonModule, RouterModule],
   templateUrl: './dialer.component.html',
   styleUrls: ['./dialer.component.scss'],
 })

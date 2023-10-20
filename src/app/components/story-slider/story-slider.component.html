@@ -1,0 +1,21 @@
+<div class="main-wrapper">
+  <div data-slide="slide" class="slide">
+    <div class="slide-items">
+      <img *ngFor="let audio of audios" [src]="audio.sliderImage" alt="Img 1" />
+    </div>
+
+    <nav class="slide-nav">
+      <div class="slide-thumb"></div>
+      <button class="slide-prev" type="button">Previous</button>
+      <button class="slide-next" type="button">Next</button>
+    </nav>
+  </div>
+</div>
+
+<ng-container *ngIf="selectedValue">
+  <audio controls #audioPlayer style="display: none">
+    <source [src]="selectedValue.sound" type="audio/ogg" />
+    <source [src]="selectedValue.sound" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</ng-container>

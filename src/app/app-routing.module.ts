@@ -15,6 +15,13 @@ const routes: Routes = [
       ),
   },
   {
+    path: 'story',
+    loadComponent: () =>
+      import('./components/story-slider/story-slider.component').then(
+        (component) => component.StorySliderComponent
+      ),
+  },
+  {
     path: '**',
     loadComponent: () =>
       import('./components/dialer/dialer.component').then(

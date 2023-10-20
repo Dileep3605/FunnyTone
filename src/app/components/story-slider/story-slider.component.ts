@@ -91,11 +91,10 @@ export class StorySliderComponent implements OnInit, AfterViewInit {
     audio.addEventListener('loadedmetadata', () => {
       const duration = audio.duration; // The duration of the audio in seconds
       this.audioDuration = (duration + 2) * 1000;
+      console.log("Seconds", this.audioDuration);
     });
     this.timeout = setTimeout(() => {
       this.next();
-      // this.audioPlayer.nativeElement.pause();
-      this.playSound(this.audios[this.active]);
     }, this.audioDuration);
   }
 
@@ -105,7 +104,7 @@ export class StorySliderComponent implements OnInit, AfterViewInit {
       this.audioPlayer.nativeElement.pause();
       this.audioPlayer.nativeElement.src = this.selectedValue.sound;
       this.audioPlayer?.nativeElement?.play();
-    }, 100);
+    }, 10);
   }
 
   stopAudio() {
